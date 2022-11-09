@@ -3,12 +3,15 @@ const outputElement = document.querySelector('#name-output');
 
 inputElement.addEventListener(`input`, el => {
 
+outputElement.textContent = el.target.value;
+
 const newValue = el.currentTarget.value;
 
-if(newValue.trim() !== '' ){
+if(newValue.trim() === '' ){
 
 	outputElement.textContent = newValue
 
+	outputElement.textContent = "Anonymous";
 }
 
 })

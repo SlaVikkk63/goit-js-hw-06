@@ -18,6 +18,8 @@ if ( inputLength === validLength ) {
 
     input.classList.add(`valid`)
 
+    
+
 } else {
     
     input.classList.remove(`valid`)
@@ -27,3 +29,4 @@ if ( inputLength === validLength ) {
 }
 
 })
+

@@ -16,4 +16,6 @@ const createItemEl = ingredients.map(el => {
   return ingredientsItemsEl;
 });
 
+ingredientsElement.append(...createItemEl)
+
 
